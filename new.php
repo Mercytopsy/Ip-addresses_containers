@@ -3,8 +3,8 @@
    error_reporting(E_ALL);
    $val = $_POST["msg"];
    echo $val;
-   $con = mysqli_connect("aqx5w9yc5brambgl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "y3cratgrhdyh0er4", "wbnk5i1ymw3vukpz");
-   $db = mysqli_select_db($con,"m1jzacxsz4z2bsxn");
+   $con = mysqli_connect("localhost", "root", "");
+   $db = mysqli_select_db($con,"Ipcontainer");
   // $information = mysqli_real_escape_string($con, $val);
    $creating = "CREATE TABLE containers(
 	   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY_KEY,
