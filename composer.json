@@ -2,6 +2,7 @@
 {
  "require": {
   "php": ">=7.4.12",
+  "ext-gd":"*",
   "ext-memcached": "*"
  }
 }
