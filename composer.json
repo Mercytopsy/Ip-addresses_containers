@@ -1,11 +1,12 @@
 {
-    "require": {
-      "php": "^7.2.0",
-      "ext-memcached": "*",
-      "ext-http": "*"
-    }
-    }
- 
-
-
-
+  "require" : {
+    "symfony/flex": "^1.0",
+    "monolog/monolog": "^1.22",
+    "twig/twig": "^2.0",
+    "symfony/twig-bridge": "^3",
+    "alrik11es/cowsayphp": "^1.2"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
