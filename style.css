@@ -1,0 +1,18 @@
+p{
+	color:blue;
+	text-align: center;
+	font-size: 24pt;
+}
+div.row {
+  display: flex;
+}
+
+div.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+table, th, td {
+  width: 10%; 
+  margin-left: auto;
+  border: 1px solid black;
+}
