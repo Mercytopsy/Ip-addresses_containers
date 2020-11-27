@@ -59,7 +59,7 @@ else
 $classname="odd";
 ?>
 <tr class="<?php if(isset($classname)) echo $classname;?>">
-<td><?php echo $row; ?></td>
+<td><?php echo $row["Information"]; ?></td>
 </tr>
 <?php
 $i++;
