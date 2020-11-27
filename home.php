@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "Ipcontainer");
+$con = mysqli_connect(getenv('HOST'), getenv('USERNAME'), getenv('PASSWORD'), getenv('DATABASE_NAME'));
 $result = mysqli_query($con, "SELECT * FROM container");
 ?>
 
