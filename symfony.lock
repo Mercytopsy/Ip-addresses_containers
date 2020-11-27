@@ -1,4 +1,28 @@
 {
+    "csanquer/pdo-service-provider": {
+        "version": "1.1.x-dev"
+    },
+    "pimple/pimple": {
+        "version": "v3.3.1"
+    },
+    "psr/container": {
+        "version": "1.0.0"
+    },
+    "silex/silex": {
+        "version": "v2.3.0"
+    },
+    "symfony/debug": {
+        "version": "v4.4.16"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.16"
+    },
+    "symfony/event-dispatcher": {
+        "version": "v4.4.16"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.9"
+    },
     "symfony/flex": {
         "version": "1.0",
         "recipe": {
@@ -10,5 +34,52 @@
         "files": [
             ".env"
         ]
+    },
+    "symfony/http-client-contracts": {
+        "version": "v2.3.1"
+    },
+    "symfony/http-foundation": {
+        "version": "v4.4.16"
+    },
+    "symfony/http-kernel": {
+        "version": "v4.4.16"
+    },
+    "symfony/mime": {
+        "version": "v5.1.8"
+    },
+    "symfony/options-resolver": {
+        "version": "v3.0.9"
+    },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.20.0"
+    },
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.20.0"
+    },
+    "symfony/polyfill-php72": {
+        "version": "v1.20.0"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.20.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.20.0"
+    },
+    "symfony/routing": {
+        "version": "4.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.2",
+            "ref": "683dcb08707ba8d41b7e34adb0344bfd68d248a7"
+        },
+        "files": [
+            "config/packages/prod/routing.yaml",
+            "config/packages/routing.yaml",
+            "config/routes.yaml"
+        ]
+    },
+    "symfony/var-dumper": {
+        "version": "v5.1.8"
     }
 }
