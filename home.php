@@ -30,7 +30,7 @@ function second(){
   
   $.ajax({
     type: "POST",
-    url: "new.php",
+    url: "web/new.php",
     data: {"msg": information},
     datatype: "json",
     success: function(response){
