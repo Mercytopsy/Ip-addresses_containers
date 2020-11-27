@@ -34,7 +34,7 @@ function second(){
     data: {"msg": information},
     datatype: "json",
     success: function(response){
-    alert(response);
+    console.log(response)
            
     },
     error: function(request, status, error){
